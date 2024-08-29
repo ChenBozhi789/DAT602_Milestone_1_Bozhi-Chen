@@ -1,0 +1,115 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\NMIT\\Level 6\\Semester 2\\DAT602 - S2\\Assessment\\DAT602_Code\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A638C49-4910-41B3-B750-229368FD6439}|DAT602_MIlestone_One\\DAT602_MIlestone_One.csproj|d:\\nmit\\level 6\\semester 2\\dat602 - s2\\assessment\\dat602_code\\dat602_milestone_one\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A638C49-4910-41B3-B750-229368FD6439}|DAT602_MIlestone_One\\DAT602_MIlestone_One.csproj|solutionrelative:dat602_milestone_one\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A638C49-4910-41B3-B750-229368FD6439}|DAT602_MIlestone_One\\DAT602_MIlestone_One.csproj|d:\\nmit\\level 6\\semester 2\\dat602 - s2\\assessment\\dat602_code\\dat602_milestone_one\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A638C49-4910-41B3-B750-229368FD6439}|DAT602_MIlestone_One\\DAT602_MIlestone_One.csproj|solutionrelative:dat602_milestone_one\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A638C49-4910-41B3-B750-229368FD6439}|DAT602_MIlestone_One\\DAT602_MIlestone_One.csproj|d:\\nmit\\level 6\\semester 2\\dat602 - s2\\assessment\\dat602_code\\dat602_milestone_one\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A638C49-4910-41B3-B750-229368FD6439}|DAT602_MIlestone_One\\DAT602_MIlestone_One.csproj|solutionrelative:dat602_milestone_one\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\NMIT\\Level 6\\Semester 2\\DAT602 - S2\\Assessment\\DAT602_Code\\DAT602_MIlestone_One\\Program.cs",
+              "RelativeDocumentMoniker": "DAT602_MIlestone_One\\Program.cs",
+              "ToolTip": "D:\\NMIT\\Level 6\\Semester 2\\DAT602 - S2\\Assessment\\DAT602_Code\\DAT602_MIlestone_One\\Program.cs",
+              "RelativeToolTip": "DAT602_MIlestone_One\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAcwBIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T22:03:56.325Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegistrationForm.cs [Design]",
+              "DocumentMoniker": "D:\\NMIT\\Level 6\\Semester 2\\DAT602 - S2\\Assessment\\DAT602_Code\\DAT602_MIlestone_One\\RegistrationForm.cs",
+              "RelativeDocumentMoniker": "DAT602_MIlestone_One\\RegistrationForm.cs",
+              "ToolTip": "D:\\NMIT\\Level 6\\Semester 2\\DAT602 - S2\\Assessment\\DAT602_Code\\DAT602_MIlestone_One\\RegistrationForm.cs [Design]",
+              "RelativeToolTip": "DAT602_MIlestone_One\\RegistrationForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T22:01:43.642Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistrationForm.cs",
+              "DocumentMoniker": "D:\\NMIT\\Level 6\\Semester 2\\DAT602 - S2\\Assessment\\DAT602_Code\\DAT602_MIlestone_One\\RegistrationForm.cs",
+              "RelativeDocumentMoniker": "DAT602_MIlestone_One\\RegistrationForm.cs",
+              "ToolTip": "D:\\NMIT\\Level 6\\Semester 2\\DAT602 - S2\\Assessment\\DAT602_Code\\DAT602_MIlestone_One\\RegistrationForm.cs",
+              "RelativeToolTip": "DAT602_MIlestone_One\\RegistrationForm.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T22:30:54.922Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1524,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
