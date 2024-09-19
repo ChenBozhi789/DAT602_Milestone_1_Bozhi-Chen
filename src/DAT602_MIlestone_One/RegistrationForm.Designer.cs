@@ -31,7 +31,7 @@
             this.txtPwd = new System.Windows.Forms.TextBox();
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
-            this.txtReenterpwd = new System.Windows.Forms.TextBox();
+            this.txtRepwd = new System.Windows.Forms.TextBox();
             this.btnRegister = new System.Windows.Forms.Button();
             this.lblEmail = new System.Windows.Forms.Label();
             this.lblReenterpwd = new System.Windows.Forms.Label();
@@ -45,6 +45,7 @@
             this.txtPwd.Location = new System.Drawing.Point(100, 238);
             this.txtPwd.Multiline = true;
             this.txtPwd.Name = "txtPwd";
+            this.txtPwd.PasswordChar = '*';
             this.txtPwd.Size = new System.Drawing.Size(206, 30);
             this.txtPwd.TabIndex = 19;
             // 
@@ -64,13 +65,14 @@
             this.txtEmail.Size = new System.Drawing.Size(206, 30);
             this.txtEmail.TabIndex = 17;
             // 
-            // txtReenterpwd
+            // txtRepwd
             // 
-            this.txtReenterpwd.Location = new System.Drawing.Point(100, 304);
-            this.txtReenterpwd.Multiline = true;
-            this.txtReenterpwd.Name = "txtReenterpwd";
-            this.txtReenterpwd.Size = new System.Drawing.Size(206, 30);
-            this.txtReenterpwd.TabIndex = 16;
+            this.txtRepwd.Location = new System.Drawing.Point(100, 304);
+            this.txtRepwd.Multiline = true;
+            this.txtRepwd.Name = "txtRepwd";
+            this.txtRepwd.PasswordChar = '*';
+            this.txtRepwd.Size = new System.Drawing.Size(206, 30);
+            this.txtRepwd.TabIndex = 16;
             // 
             // btnRegister
             // 
@@ -142,7 +144,7 @@
             this.Controls.Add(this.txtPwd);
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.txtEmail);
-            this.Controls.Add(this.txtReenterpwd);
+            this.Controls.Add(this.txtRepwd);
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.lblEmail);
             this.Controls.Add(this.lblReenterpwd);
@@ -161,7 +163,7 @@
         private System.Windows.Forms.TextBox txtPwd;
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.TextBox txtReenterpwd;
+        private System.Windows.Forms.TextBox txtRepwd;
         private System.Windows.Forms.Button btnRegister;
         private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.Label lblReenterpwd;
