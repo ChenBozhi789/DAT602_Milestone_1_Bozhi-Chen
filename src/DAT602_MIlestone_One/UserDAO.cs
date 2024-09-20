@@ -4,6 +4,7 @@ using MySql.Data.MySqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace DAT602_MIlestone_One
 {
@@ -28,6 +29,7 @@ namespace DAT602_MIlestone_One
                         cmd.Parameters.AddWithValue("@Password", user.Password);
                         
                         int result = cmd.ExecuteNonQuery();
+                        Console.WriteLine("You have logged successfully");
                         // Check if the query was successful
                         return result > 0;
                     }
@@ -39,5 +41,35 @@ namespace DAT602_MIlestone_One
                 }
             }
         }
+
+        public bool Login(string email, string password)
+        {
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+                    string query = "SELECT COUNT(*) FROM tb_user WHERE email = @email AND password = @password";
+                using (MySqlCommand cmd = new MySqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@email", email);
+                        cmd.Parameters.AddWithValue("@password", password);
+
+                        int countresult = Convert.ToInt32(cmd.ExecuteScalar());
+
+                        // return whether user login or not
+                        return countresult > 0;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                    return false;
+                }
+
+                
+            }
+        }
+
     }
 }

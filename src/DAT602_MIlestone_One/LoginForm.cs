@@ -19,8 +19,34 @@ namespace DAT602_MIlestone_One
 
         private void btnContinue_Click(object sender, EventArgs e)
         {
-            MainGameLobby mainGameLobby = new MainGameLobby();
-            mainGameLobby.ShowDialog();
+            string email = txtEmail.Text;
+            string password = txtPwd.Text;
+
+            // Veirify all required fields are filled
+            if (string.IsNullOrWhiteSpace(txtEmail.Text) || string.IsNullOrWhiteSpace(txtPwd.Text))
+            {
+                MessageBox.Show("Please fill in all required fields");
+                return;
+            }
+
+            UserDAO userDAO = new UserDAO();
+
+            // call Login function of userDAO
+            bool isAuthenticated = userDAO.Login(email, password);
+
+            // 根据登录结果做出响应
+            if (isAuthenticated)
+            {
+                MessageBox.Show("Login Successfully！");
+                
+                // Open the main game lobby
+                MainGameLobby mainGameLobby = new MainGameLobby();
+                mainGameLobby.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Email of Password incorrect, please try again");
+            }
         }
     }
 }
